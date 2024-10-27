@@ -2,8 +2,8 @@ import sys
 from setuptools import setup
 from setuptools.command.test import test as TestCommand
 
-from docopt import __version__
-
+# from docopt import __version__
+__version__ = '0.6.2'
 
 class PyTestCommand(TestCommand):
     """ Command to run unit py.test unit tests
